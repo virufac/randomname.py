@@ -12,6 +12,6 @@ def get_random(times=1,                       # output iterations
                sex=random.randint(0, 1)):     # 0 Male, 1 Female
 ```
     
-For now, just run it with `python3 -i random_names.py`
+For now, just run it with `python3 -i random_names.py` (or whatever the file is called now)
     
 And at the `>>>` python shell, `get_random(20)` with options as keyargs or default require no arguments. This will print 20 names to stdout.
