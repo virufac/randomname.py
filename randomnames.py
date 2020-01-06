@@ -8,11 +8,11 @@ from shutil import copy
 from os import chdir
 import random
 
+
 def read_json(path='names.json'):
     with open(path, 'r') as in_file:
         return load(in_file)
 
-    
 def get_text_files(path=Path.cwd()):
     alias_path = Path.cwd()
     if path != alias_path:
