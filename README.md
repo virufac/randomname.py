@@ -1,4 +1,4 @@
-# random_name.py
+# randomname.py
 Assembles Lists of Names to Json and Does Random Picks
 
 It's simple enough. Look at the `get_random()` func for options, which I'll eventually put into argparse options.
